@@ -1,8 +1,8 @@
 import discord
-import init
 from discord.ext import commands
 from discord.embeds import Embed
-
+from pystyle import Center
+from colorama import Fore, init
 
 client = commands.Bot(command_prefix="$" , intents = discord.Intents.all())
 client.remove_command("help")
