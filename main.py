@@ -1,4 +1,5 @@
 import discord
+import init
 from discord.ext import commands
 from discord.embeds import Embed
 
